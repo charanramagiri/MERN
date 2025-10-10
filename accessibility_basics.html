@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>accessibility basics</title>
+    </head>
+    <body>
+        <!-- <form arial-label="Contact form">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter you email">
+            <button type="submit">send</button>
+        </form> -->
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" required>
+
+            <label for="message">message:</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">send</button>
+        </form>
+    </body>
+</html>
