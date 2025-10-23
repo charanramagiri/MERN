@@ -1,0 +1,16 @@
+.page-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    gap: 20px;
+    padding: 20px;
+    
+}
+header{
+    grid-area: header;
+    background: #222;
+}
